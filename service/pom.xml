@@ -11,6 +11,13 @@
 
     <groupId>com.milorad</groupId>
     <artifactId>service</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.milorad</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
