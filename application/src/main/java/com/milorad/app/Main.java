@@ -1,5 +1,8 @@
 package com.milorad.app;
 
+
+/*
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +13,12 @@ import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletCon
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
+*/
 
+
+public class Main {
+
+}/*
 @SpringBootApplication()
 @Configuration
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
@@ -38,4 +46,4 @@ public class Main {
         return factory;
     }
 
-}
+}*/
