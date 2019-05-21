@@ -8,11 +8,27 @@
     <artifactId>mod</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <scm>
+        <connection>scm:svn:bbb/masterPom/tags/gs4tr-10</connection>
+        <developerConnection>scm:svn:$bbb/masterPom/tags/gs4tr-10</developerConnection>
+    </scm>
+
+
+
     <modules>
-        <module>model</module>
-        <module>dao</module>
-        <module>service</module>
+        <module>application</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>2.1.3.RELEASE</version>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>
