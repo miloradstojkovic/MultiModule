@@ -10,8 +10,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="application" target="1.5" />
       <module name="dao" target="1.5" />
       <module name="model" target="1.5" />
+      <module name="MultiModule" target="1.5" />
       <module name="service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
