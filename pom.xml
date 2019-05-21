@@ -8,11 +8,19 @@
     <artifactId>mod</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <scm>
+        <connection>scm:svn:bbb/masterPom/tags/gs4tr-10</connection>
+        <developerConnection>scm:svn:$bbb/masterPom/tags/gs4tr-10</developerConnection>
+    </scm>
+
     <modules>
+
+
         <module>model</module>
         <module>dao</module>
         <module>service</module>
     </modules>
+
 
 
 </project>
